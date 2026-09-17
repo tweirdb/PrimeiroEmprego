@@ -42,3 +42,14 @@ justify-content: center}
     margin-left: 50px;
     padding-top: 10px;
 }
+.container {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #936ce7;
+    font-weight: 600;
+    font-size: 35px;
+}
