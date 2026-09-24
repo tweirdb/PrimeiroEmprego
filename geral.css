@@ -15,7 +15,7 @@ body {
 .posicao {
     position: absolute;
     left: 75%;
-    bottom: 93%;
+    bottom: 95%;
 }
 .corletra {
     margin-left: 150px;
@@ -34,7 +34,7 @@ justify-content: center}
 
 .novoretangulo {
     width: 80%;
-    height: 40px;
+    height: 60px;
     background-color: white;
     border-radius: 30px;
 }
@@ -52,4 +52,40 @@ justify-content: center}
     color: #936ce7;
     font-weight: 600;
     font-size: 35px;
+}
+.posicaoazul {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #3157A4;
+    font-weight: 600;
+    font-size: 45px;
+    padding-left: 10%;
+}
+.posicaoimg {
+    display: flex;
+    padding-left: 60%;
+    padding-top: 0%;
+}
+.distancia1 {
+    margin-left: 300px;
+}
+.alinhamento {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#curriculobut {
+    background-color: #3157A4;
+    color: white;
+    width: 340px;
+    height: 54px;
+    border-radius: 10px;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+}
+.afastarbutazul {
+    padding-left: 12%;
 }
