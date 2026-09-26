@@ -1,3 +1,4 @@
 function abrircurriculo() {
-    window.location.href = 'curriculo.html', '_blank';
+    const url = "curriculo.html";
+    window.open(url, '_blank');
 }
