@@ -6,12 +6,21 @@ body {
     color: #11203d;
     
 }
+/* RETANGULOS AZUIS EXTREMOS ===================== */
 .retangulo {
     width: 100%;
     height: 45px;
     background-color: #3157A4;
     color: white
 }
+.retangulorodape {
+    width: 100%;
+    height: 45px;
+    background-color: #3157A4;
+    color: white;
+    margin-top: 100px;
+}
+/*=======================================================*/
 .posicao {
     position: absolute;
     left: 75%;
@@ -20,27 +29,36 @@ body {
 .corletra {
     margin-left: 150px;
 }
+/* COR DOS V ===================*/
 .outracor {
     color: #7f57d3;
     font-weight: 600
 }
+.outracor2 {
+    color: #3157A4;
+    font-weight: 600
+}
+/*===================================*/
 .tamanho {
     font-size: 21px;
 }
-.centralizar{width: 100%;
+/* MENSAGEM ============================ */
+.centralizar {
+width: 100%;
 display: flex;
 justify-content: center;
 text-align: center;
 position: fixed;
-top: 670px;
+top: 90%;
 }
 .novoretangulo {
     width: 80%;
     height: 45px;
     background-color: white;
     border-radius: 30px;
-    box-shadow: 0 4px 8px #11203d83;
+    box-shadow: 0 4px 8px #002d8683;
 }
+/*==============================================*/
 .afastar {
     margin-left: 50px;
     padding-top: 10px;
@@ -73,9 +91,20 @@ top: 670px;
     font-size: 45px;
     padding-left: 10%;
 }
+.posicaoroxo {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #936ce7;
+    font-weight: 600;
+    font-size: 45px;
+    padding-left: 10%;
+}
 .posicaoimg {
     display: flex;
-    justify-self: flex-end;
+    padding-right: 10%;
 }
 .distancia1 {
     margin-left: 300px;
@@ -85,6 +114,7 @@ top: 670px;
     align-items: center;
     gap: 20px;
 }
+/* BOTOES ================================*/
 #curriculobut {
     background-color: #3157A4;
     color: white;
@@ -93,7 +123,49 @@ top: 670px;
     border-radius: 10px;
     font-size: 21px;
     font-family: "Poppins", sans-serif;
+    cursor: pointer;
 }
+#entrevistabut {
+    background-color: #936ce7;
+    color: white;
+    width: 340px;
+    height: 54px;
+    border-radius: 10px;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+#cursosbut {
+    background-color: #3157A4;
+    color: white;
+    width: 340px;
+    height: 54px;
+    border-radius: 10px;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+#vagabut {
+    background-color: #936ce7;
+    color: white;
+    width: 340px;
+    height: 54px;
+    border-radius: 10px;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+/*==============================================*/
 .afastarbutazul {
     padding-left: 12%;
 }
+
+.seila{width: 100vw;
+display: flex;
+flex-direction: row;
+justify-content: space-around}
+
+.seila2{width: 100vw;
+display: flex;
+flex-direction: column;
+justify-content: space-around}
