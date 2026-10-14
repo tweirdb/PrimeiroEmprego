@@ -15,7 +15,14 @@
 </head>
 <body>
     <div class="retangulo">
-        <p class="posicao">Currículo   |   Entrevistas   |   Cursos   |   Vagas</p>
+    <header class="posicao">
+        <nav>
+            <a style="color: white;" href="#curriculo">Currículo | </a>
+            <a style="color: white;" href="#entrevistas">Entrevistas | </a>
+            <a style="color: white;" href="#cursos">Cursos | </a>
+            <a style="color: white;" href="#vagas">Vagas</a>
+        </nav>
+    </header>
         <img style="width: 200px; padding-left: 10px;" src="../imagensiniciais/logomarca2.jpg"/>
     </div>
             <!-- BANNER -->
@@ -38,6 +45,7 @@
     </div>
             <!-- FIM MENSAGEM -->
             <!-- INICIO CURRÍCULO -->
+    <section id="curriculo">
     <div class="posicaoazul">
         <img style="width: 90px;" src="bolinhas/curriculoazul.png"/>
         <p>CURRÍCULO</p>
@@ -81,9 +89,11 @@
         <br>
     <button id="curriculobut" onclick="abrircurriculo()">Quero fazer meu currículo</button>
     </div>
+    </section>
                 <!-- FIM CURRICULO -->
 
                 <!-- INICIO ENTREVISTAS -->
+    <section id="entrevistas">
     <div class="posicaoroxo">
         <img style="width: 90px;" src="bolinhas/entrevistaroxo.png"/>
         <p>ENTREVISTAS</p>
@@ -126,8 +136,10 @@
         <br>
     <button id="entrevistabut" onclick="abrirentrevistas()">Quero me preparar</button>
     </div>
+    </section>
             <!-- FIM ENTREVISTAS -->
              <!-- INICIO CURSOS -->
+    <section id="cursos">
     <div class="posicaoazul">
         <img style="width: 90px;" src="bolinhas/cursosazul.png"/>
         <p>CURSOS</p>
@@ -169,8 +181,10 @@
         <br>
     <button id="cursosbut" onclick="abrircursos()">Explorar Cursos</button>
     </div>
+    </section>
                 <!-- FIM CURSOS -->
                 <!-- INICIO VAGAS -->
+    <section id="vagas">
                  <div class="posicaoroxo">
         <img style="width: 90px;" src="bolinhas/vagasroxo.png"/>
         <p>VAGAS</p>
@@ -210,11 +224,15 @@
     <div class="afastarbutroxo">
     <button id="vagabut" onclick="abrirvagas()">Ver vagas disponíveis</button>
     </div>
+    </section>
             <!-- FIM VAGAS -->
              <!-- RODAPE -->
  <div class="retangulorodape">
         <img style="width: 200px; padding-left: 10px;" src="../imagensiniciais/logomarca2.jpg"/>
-    </div>
+        <a href="https://www.instagram.com/tweirdb?igsi=MWh0bXA3NjIwaGcxcQ==" target="_blank">
+        <img style="width: 20px; padding-left: 10px;" src="../imagensiniciais/instagram.png" class="posicao2"/>
+        </a>
+</div>
 <script src="botoes.js"></script>
 </body>
 </html>

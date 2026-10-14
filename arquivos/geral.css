@@ -43,6 +43,11 @@ body {
     left: 75%;
     bottom: 95%;
 }
+.posicao2 {
+    position: relative;
+    bottom: 8px;
+    left: 80%;
+}
 .corletra {
     margin-left: 150px;
 }
@@ -170,6 +175,12 @@ a {
 /*================================ FIM GRID*/
 li {
     margin-bottom: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    min-height: 100vh;
 }
 .posicaoimg2 {
     display: flex;
